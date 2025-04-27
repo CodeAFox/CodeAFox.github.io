@@ -1,0 +1,77 @@
+body{
+  background-color: #221d28;
+}
+
+nav{
+  display: block;
+  background-color: rgb(249, 238, 238);
+  padding: 10px;
+}
+
+nav *{
+  padding: 8px;
+  margin-right: 10px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: red;
+}
+
+.about{
+  color: rgb(249, 238, 238);
+  margin: 15px;
+}
+
+.buttons{
+  margin-top: 8px;
+  gap: 10px;
+  font-size: large;
+}
+
+.buttons button{
+  margin-right: 5px;
+}
+
+.pokemonTable{
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.pokemonBox{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 300px;
+  height: 150px;
+  padding-left: 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+.pokedexEntry{
+  background-color: white;
+  width: 50%;
+  height: fit-content;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+
+.flexContainer{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
